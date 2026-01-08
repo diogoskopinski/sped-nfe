@@ -2,7 +2,7 @@
 
 error_reporting(E_ERROR);
 ini_set('display_errors', 'On');
-require_once '../bootstrap.php';
+require_once __DIR__ . '/../bootstrap.php';
 
 use NFePHP\Common\Certificate;
 use NFePHP\Common\Exception\ValidatorException;
